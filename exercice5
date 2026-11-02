@@ -1,0 +1,7 @@
+let nombre = Number(prompt("Entrez un nombre :"));
+
+if (nombre % 2) {
+    alert("Le nombre est impair");
+} else {
+    alert("Le nombre est pair");
+}

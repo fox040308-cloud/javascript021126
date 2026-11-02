@@ -1,0 +1,5 @@
+let naissance = prompt("Quelle est votre année de naissance ?");
+
+let age = 2026 - naissance;
+
+alert("Vous avez " + age + " ans.");

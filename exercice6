@@ -1,0 +1,12 @@
+let prix = prompt("Entrez le prix :");
+let quantite = prompt("Entrez la quantité :");
+
+let total = prix * quantite;
+
+if (total > 50) {
+    total = total * 0.9;
+} else {
+    total;
+}
+
+alert("Le total est de " + total + " €");
