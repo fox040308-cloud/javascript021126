@@ -10,6 +10,8 @@ console.log(n1*n2);
 console.log(n2/n3);
 console.log(n1%n2);
 
+console.log("n1 vaut" + n1)
+
 // l'addition dans differents cas
 12 + 12 => 24 // number + number => number
 "12" + 12 => "1212" // string + number => string + concaténation
